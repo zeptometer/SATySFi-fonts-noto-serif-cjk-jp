@@ -1,0 +1,41 @@
+---
+name: fonts-noto-serif-cjk-jp
+author:
+  name: Yuito Murase
+  email: yuito.murase@gmail.com
+font-metadata:
+  name: Noto Serif CJK JP
+  version: 1.001
+  license: OFL
+  url: https://www.google.com/get/noto/
+site:
+  homepage: https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp
+  bug-reports: https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp/issues
+  dev-repo: git+https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp.git
+font-archive:
+  name: noto-serif-cjk-jp.zip
+  expand-dir: noto-serif-cjk-jp
+  url: https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip
+  extract: unzip -j -d noto-serif-cjk-jp -o noto-serif-cjk-jp.zip *.otf
+font-list:
+- type: cjk
+  name: NotoSerifCJKjp-Black
+  file: NotoSerifCJKjp-Black.otf
+- type: cjk
+  name: NotoSerifCJKjp-Bold
+  file: NotoSerifCJKjp-Bold.otf
+- type: cjk
+  name: NotoSerifCJKjp-ExtraLight
+  file: NotoSerifCJKjp-ExtraLight.otf
+- type: cjk
+  name: NotoSerifCJKjp-Light
+  file: NotoSerifCJKjp-Light.otf
+- type: cjk
+  name: NotoSerifCJKjp-Medium
+  file: NotoSerifCJKjp-Medium.otf
+- type: cjk
+  name: NotoSerifCJKjp-Regular
+  file: NotoSerifCJKjp-Regular.otf
+- type: cjk
+  name: NotoSerifCJKjp-SemiBold
+  file: NotoSerifCJKjp-SemiBold.otf

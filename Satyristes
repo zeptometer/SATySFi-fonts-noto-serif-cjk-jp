@@ -1,0 +1,25 @@
+(version 0.0.2)
+(library
+  (name "fonts-noto-serif-cjk-jp")
+  (version "1.001")
+  (sources
+    ((hash "fonts.satysfi-hash" "fonts.satysfi-hash")
+     (hash "mathfonts.satysfi-hash" "mathfonts.satysfi-hash")
+     (font "NotoSerifCJKjp-Black.otf" "noto-serif-cjk-jp/NotoSerifCJKjp-Black.otf")
+     (font "NotoSerifCJKjp-Bold.otf" "noto-serif-cjk-jp/NotoSerifCJKjp-Bold.otf")
+     (font "NotoSerifCJKjp-ExtraLight.otf" "noto-serif-cjk-jp/NotoSerifCJKjp-ExtraLight.otf")
+     (font "NotoSerifCJKjp-Light.otf" "noto-serif-cjk-jp/NotoSerifCJKjp-Light.otf")
+     (font "NotoSerifCJKjp-Medium.otf" "noto-serif-cjk-jp/NotoSerifCJKjp-Medium.otf")
+     (font "NotoSerifCJKjp-Regular.otf" "noto-serif-cjk-jp/NotoSerifCJKjp-Regular.otf")
+     (font "NotoSerifCJKjp-SemiBold.otf" "noto-serif-cjk-jp/NotoSerifCJKjp-SemiBold.otf")
+     ))
+  (opam "satysfi-fonts-noto-serif-cjk-jp.opam"))
+(libraryDoc
+  (name "fonts-noto-serif-cjk-jp-doc")
+  (version "1.001")
+  (build
+    ((satysfi "doc-fonts-noto-serif-cjk-jp.saty" "-o" "doc-fonts-noto-serif-cjk-jp.pdf")))
+  (sources
+    ((doc "doc-fonts-noto-serif-cjk-jp.pdf" "./doc-fonts-noto-serif-cjk-jp.pdf")))
+  (opam "satysfi-fonts-noto-serif-cjk-jp-doc.opam")
+  (dependencies ((fonts-noto-serif-cjk-jp ()))))

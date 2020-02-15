@@ -1,0 +1,9 @@
+{
+  "fonts-noto-serif-cjk-jp:NotoSerifCJKjp-Black" : <Single: {"src": "dist/fonts/fonts-noto-serif-cjk-jp/NotoSerifCJKjp-Black.otf"}>,
+  "fonts-noto-serif-cjk-jp:NotoSerifCJKjp-Bold" : <Single: {"src": "dist/fonts/fonts-noto-serif-cjk-jp/NotoSerifCJKjp-Bold.otf"}>,
+  "fonts-noto-serif-cjk-jp:NotoSerifCJKjp-ExtraLight" : <Single: {"src": "dist/fonts/fonts-noto-serif-cjk-jp/NotoSerifCJKjp-ExtraLight.otf"}>,
+  "fonts-noto-serif-cjk-jp:NotoSerifCJKjp-Light" : <Single: {"src": "dist/fonts/fonts-noto-serif-cjk-jp/NotoSerifCJKjp-Light.otf"}>,
+  "fonts-noto-serif-cjk-jp:NotoSerifCJKjp-Medium" : <Single: {"src": "dist/fonts/fonts-noto-serif-cjk-jp/NotoSerifCJKjp-Medium.otf"}>,
+  "fonts-noto-serif-cjk-jp:NotoSerifCJKjp-Regular" : <Single: {"src": "dist/fonts/fonts-noto-serif-cjk-jp/NotoSerifCJKjp-Regular.otf"}>,
+  "fonts-noto-serif-cjk-jp:NotoSerifCJKjp-SemiBold" : <Single: {"src": "dist/fonts/fonts-noto-serif-cjk-jp/NotoSerifCJKjp-SemiBold.otf"}>
+}
