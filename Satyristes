@@ -22,4 +22,5 @@
   (sources
     ((doc "doc-fonts-noto-serif-cjk-jp.pdf" "./doc-fonts-noto-serif-cjk-jp.pdf")))
   (opam "satysfi-fonts-noto-serif-cjk-jp-doc.opam")
-  (dependencies ((fonts-noto-serif-cjk-jp ()))))
+  (dependencies ((base ())
+                 (fonts-noto-serif-cjk-jp ()))))
