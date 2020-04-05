@@ -1,6 +1,6 @@
 opam-version: "2.0"
 name: "satysfi-fonts-noto-serif-cjk-jp"
-version: "1.001+satysfi0.0.4"
+version: "2.001ver1+satysfi0.0.4"
 synopsis: "SATySFi Font Package for Noto Serif CJK JP fonts"
 description: """
 SATySFi font package for Noto Serif CJK JP fonts.
@@ -14,14 +14,14 @@ homepage: "https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp"
 bug-reports: "https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp/issues"
 dev-repo: "git+https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp.git"
 extra-source "noto-serif-cjk-jp.zip" {
-  archive: "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip"
+  archive: "https://github.com/zeptometer/noto-cjk/releases/download/NotoSansV2.001/NotoSerifCJKJp.zip"
   checksum: [
-    "sha256=ca323a0ab974a49063884a404f233d93e0dbb51b21a5943091d9e5d5922a4e0a"
-    "sha512=fa228c8aab43e7703a6df4af478c4c10cdba62f244b360045bcfe76b98840148f632511a497bf9151cffa8933eeccce93eb0a0b059ed1b02beca097c6ee9b847"
+    "sha256=90cf62ca126af39e92c70b569e3a4a3079d72f4e936c05a332513e6f866c5d5d"
+    "sha512=7647cecaef8c7a95d295e118d933dbc6d1e73526a0d7a18427b2a1f5a93bc14dc912573f333a37ae12ff92173a4740d60f9899be996e15fd8f8f5997d8363af1"
   ]
 }
 depends: [
-  "satysfi" {>= "0.0.3+dev2019.02.12" & < "0.0.5"}
+  "satysfi" {>= "0.0.4" & < "0.0.5"}
   "satyrographos" {>= "0.0.2" & < "0.0.3"}
 ]
 build: [
